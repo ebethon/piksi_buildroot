@@ -175,7 +175,7 @@ static port_config_t port_configs[] = {
   {
     .name = "udp_server0",
     .opts = "",
-    .opts_data.udp_server_data.port = 55555,
+    .opts_data.udp_server_data.port = 55557,
     .opts_get = opts_get_udp_server,
     .type = PORT_TYPE_UDP_SERVER,
     .mode_name_default = MODE_NAME_DEFAULT,
@@ -186,7 +186,7 @@ static port_config_t port_configs[] = {
   {
     .name = "udp_server1",
     .opts = "",
-    .opts_data.udp_server_data.port = 55556,
+    .opts_data.udp_server_data.port = 55558,
     .opts_get = opts_get_udp_server,
     .type = PORT_TYPE_UDP_SERVER,
     .mode_name_default = MODE_NAME_DEFAULT,
