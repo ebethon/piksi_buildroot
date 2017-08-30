@@ -80,7 +80,7 @@ static port_whitelist_config_t port_whitelist_config[PORT_MAX] = {
   [PORT_TCP_CLIENT1] = {
     .name = "tcp_client1",
     .wl = ""
-  }
+  },
   [PORT_UDP_SERVER0] = {
     .name = "udp_server0",
     .wl = ""
