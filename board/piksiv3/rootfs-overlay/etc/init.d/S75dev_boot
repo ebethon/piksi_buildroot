@@ -82,7 +82,8 @@ start() {
 
     # Unload driver here so FPGA can be reconfigured, it wil be reloaded
     # by coldplug.
-    umount $sd_path
+    sync
+    umount -f $sd_path
     modprobe -r sdhci_of_arasan
   fi
 
